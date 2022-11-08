@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "BuildExt Library"
-include ("app")
+include ("example")
