@@ -7,7 +7,7 @@ android {
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "vtsen.hashnode.dev.buildext.example"
+        applicationId = "vtsen.hashnode.dev.buildutils.example"
         minSdk = 21
         targetSdk = 33
         versionCode = 1
@@ -45,7 +45,7 @@ android {
             excludes.add("/META-INF/{AL2.0,LGPL2.1}")
         }
     }
-    namespace = "vtsen.hashnode.dev.buildext.example"
+    namespace = "vtsen.hashnode.dev.buildutils.example"
 }
 
 dependencies {
@@ -64,4 +64,5 @@ dependencies {
     implementation("com.google.accompanist:accompanist-systemuicontroller:0.27.0")
 
     implementation("androidx.core:core-splashscreen:1.0.0")
+    implementation(project(":buildutils"))
 }

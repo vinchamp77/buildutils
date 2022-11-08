@@ -1,4 +1,4 @@
-package vtsen.hashnode.dev.buildext.example.ui.theme
+package vtsen.hashnode.dev.buildutils.example.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

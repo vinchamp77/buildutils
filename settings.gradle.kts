@@ -12,5 +12,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "BuildExt Library"
+rootProject.name = "Build Utils Library"
 include ("example")
+include("buildutils")
