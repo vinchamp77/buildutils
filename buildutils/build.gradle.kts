@@ -43,7 +43,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.vinchamp77"
             artifactId = "buildutils"
-            version = "buildutils"
+            version = "0.0.2"
 
             afterEvaluate {
                 from(components["release"])
