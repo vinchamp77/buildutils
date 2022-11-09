@@ -44,7 +44,7 @@ afterEvaluate {
             create<MavenPublication>("maven") {
                 groupId = "com.github.vinchamp77"
                 artifactId = "buildutils"
-                version = "0.0.0"
+                version = "0.0.1"
             }
         }
     }
