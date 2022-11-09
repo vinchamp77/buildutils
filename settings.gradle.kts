@@ -10,8 +10,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+
+        maven ("https://jitpack.io")
     }
 }
 rootProject.name = "Build Utils Library"
 include ("example")
-include("buildutils")
+include ("buildutils")
