@@ -38,13 +38,15 @@ dependencies {
     implementation("androidx.annotation:annotation:1.5.0")
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            create<MavenPublication>("maven") {
-                groupId = "com.github.vinchamp77"
-                artifactId = "buildutils"
-                version = "0.0.1"
+publishing {
+    publications {
+        register<MavenPublication>("release") {
+            groupId = "com.github.vinchamp77"
+            artifactId = "buildutils"
+            version = "buildutils"
+
+            afterEvaluate {
+                from(components["release"])
             }
         }
     }
