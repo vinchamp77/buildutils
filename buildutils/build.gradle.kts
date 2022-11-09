@@ -1,6 +1,7 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
+    id("maven-publish")
 }
 
 android {
@@ -35,4 +36,16 @@ android {
 
 dependencies {
     implementation("androidx.annotation:annotation:1.5.0")
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("maven") {
+                groupId = "com.github.vinchamp77"
+                artifactId = "buildutils"
+                version = "0.0.0"
+            }
+        }
+    }
 }
