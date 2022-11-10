@@ -1,5 +1,5 @@
 # BuildUtils Library
-Simple build utility to avoid hard coding and improve code readability.
+Simple Android build utilities to avoid hard coding and improve code readability.
 
 Instead of hard coding like this,
 ```kotlin
