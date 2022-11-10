@@ -7,7 +7,7 @@ if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
     /*...*/
 }
 ```
-you can use `BuildUtils`
+you can use `BuildExt`
 ```kotlin
 if (BuildExt.VERSION.isDynamicColorSupported()) {
     /*...*/
