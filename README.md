@@ -34,7 +34,7 @@ dependencyResolutionManagement {
 ```
 </details>
 
-<details open>
+<details>
   <summary>kotlin - settings.gradle.kts</summary>
 
 ```gradle
@@ -60,7 +60,7 @@ dependencies {
 }
 ```
 </details>
-<details open>
+<details>
   <summary>kotlin - build.gradle.kts</summary>
 
 ```gradle
