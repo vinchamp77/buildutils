@@ -59,12 +59,12 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview:$composeVersion")
     debugImplementation("androidx.compose.ui:ui-tooling:$composeVersion")
 
-    implementation("androidx.compose.material3:material3:1.1.0-alpha01")
+    implementation("androidx.compose.material3:material3:1.1.0-alpha03")
 
     implementation("com.google.accompanist:accompanist-systemuicontroller:0.27.0")
 
     implementation("androidx.core:core-splashscreen:1.0.0")
 
     implementation(project(":buildutils"))
-    //implementation("com.github.vinchamp77:buildutils:0.0.2")
+    //implementation("com.github.vinchamp77:buildutils:0.0.4")
 }
