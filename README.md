@@ -56,7 +56,7 @@ dependencyResolutionManagement {
 
 ```gradle
 dependencies {
-    implementation "com.github.vinchamp77:buildutils:0.0.4"
+    implementation "com.github.vinchamp77:buildutils:0.0.5"
 }
 ```
 </details>
@@ -65,7 +65,7 @@ dependencies {
 
 ```gradle
 dependencies {
-    implementation("com.github.vinchamp77:buildutils:0.0.4")
+    implementation("com.github.vinchamp77:buildutils:0.0.5")
 }
 ```
 </details>
@@ -81,3 +81,6 @@ import vtsen.hashnode.dev.buildutils.BuildExt
 - `BuildExt.VERSION.isRuntimePermissionSupported()`
 - `BuildExt.VERSION.isNotificationChannelSupported()`
 - `BuildExt.VERSION.isFlagImmutableSupported()`
+
+### Examples
+- https://github.com/vinchamp77/buildutils/tree/master/example
