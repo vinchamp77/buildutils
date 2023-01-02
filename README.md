@@ -56,7 +56,7 @@ dependencyResolutionManagement {
 
 ```gradle
 dependencies {
-    implementation "com.github.vinchamp77:buildutils:0.0.3"
+    implementation "com.github.vinchamp77:buildutils:0.0.4"
 }
 ```
 </details>
@@ -65,7 +65,7 @@ dependencies {
 
 ```gradle
 dependencies {
-    implementation("com.github.vinchamp77:buildutils:0.0.3")
+    implementation("com.github.vinchamp77:buildutils:0.0.4")
 }
 ```
 </details>
@@ -81,6 +81,14 @@ import vtsen.hashnode.dev.buildutils.BuildExt
 
 ```kotlin
 if (BuildExt.VERSION.isDynamicColorSupported()) {
+    /*...*/
+}
+```
+
+#### Check Runtime Permission Support
+
+```kotlin
+if (BuildExt.VERSION.isRuntimePermissionSupported()) {
     /*...*/
 }
 ```
