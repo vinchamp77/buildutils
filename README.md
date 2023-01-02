@@ -76,19 +76,8 @@ dependencies {
 import vtsen.hashnode.dev.buildutils.BuildExt
 ```
 
-### Examples
-#### Check Dynamic Color Support
-
-```kotlin
-if (BuildExt.VERSION.isDynamicColorSupported()) {
-    /*...*/
-}
-```
-
-#### Check Runtime Permission Support
-
-```kotlin
-if (BuildExt.VERSION.isRuntimePermissionSupported()) {
-    /*...*/
-}
-```
+### APIs
+- `BuildExt.VERSION.isDynamicColorSupported()`
+- `BuildExt.VERSION.isRuntimePermissionSupported()`
+- `BuildExt.VERSION.isNotificationChannelSupported()`
+- `BuildExt.VERSION.isFlagImmutableSupported()`
