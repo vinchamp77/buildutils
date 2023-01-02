@@ -1,17 +1,21 @@
 package vtsen.hashnode.dev.buildutils.example.ui.screens
 
+import android.os.Build
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import vtsen.hashnode.dev.buildutils.BuildExt
-import vtsen.hashnode.dev.buildutils.example.ui.theme.NewEmptyComposeAppTheme
+import vtsen.hashnode.dev.buildutils.example.ui.theme.BuildUtilsExampleAppTheme
 
 @Composable
 fun MainScreen() {
     Column {
-        Text(text = "isDynamicColorSupported: ${BuildExt.VERSION.isDynamicColorSupported()}")
+        Text(text = "Current API Level (SDK Version): ${Build.VERSION.SDK_INT}")
         Text(text = "isRuntimePermissionSupported: ${BuildExt.VERSION.isRuntimePermissionSupported()}")
+        Text(text = "isDynamicColorSupported: ${BuildExt.VERSION.isDynamicColorSupported()}")
+        Text(text = "isNotificationChannelSupported: ${BuildExt.VERSION.isNotificationChannelSupported()}")
+        Text(text = "isFlagImmutableSupported: ${BuildExt.VERSION.isFlagImmutableSupported()}")
     }
 
 }
@@ -19,7 +23,7 @@ fun MainScreen() {
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-    NewEmptyComposeAppTheme(useSystemUIController = false) {
+    BuildUtilsExampleAppTheme(useSystemUIController = false) {
         MainScreen()
     }
 }
