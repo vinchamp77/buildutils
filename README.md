@@ -56,7 +56,7 @@ dependencyResolutionManagement {
 
 ```gradle
 dependencies {
-    implementation "com.github.vinchamp77:buildutils:0.0.4"
+    implementation "com.github.vinchamp77:buildutils:0.0.5"
 }
 ```
 </details>
@@ -65,7 +65,7 @@ dependencies {
 
 ```gradle
 dependencies {
-    implementation("com.github.vinchamp77:buildutils:0.0.4")
+    implementation("com.github.vinchamp77:buildutils:0.0.5")
 }
 ```
 </details>
@@ -76,19 +76,11 @@ dependencies {
 import vtsen.hashnode.dev.buildutils.BuildExt
 ```
 
+### APIs
+- `BuildExt.VERSION.isDynamicColorSupported()`
+- `BuildExt.VERSION.isRuntimePermissionSupported()`
+- `BuildExt.VERSION.isNotificationChannelSupported()`
+- `BuildExt.VERSION.isFlagImmutableSupported()`
+
 ### Examples
-#### Check Dynamic Color Support
-
-```kotlin
-if (BuildExt.VERSION.isDynamicColorSupported()) {
-    /*...*/
-}
-```
-
-#### Check Runtime Permission Support
-
-```kotlin
-if (BuildExt.VERSION.isRuntimePermissionSupported()) {
-    /*...*/
-}
-```
+- https://github.com/vinchamp77/buildutils/tree/master/example
