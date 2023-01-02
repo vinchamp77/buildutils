@@ -11,7 +11,7 @@ import vtsen.hashnode.dev.buildutils.example.ui.theme.BuildUtilsExampleAppTheme
 @Composable
 fun MainScreen() {
     Column {
-        Text(text = "Current API Level (SDK Version): ${Build.VERSION.SDK_INT}")
+        Text(text = "App API Level (SDK Version): ${Build.VERSION.SDK_INT}")
         Text(text = "isRuntimePermissionSupported: ${BuildExt.VERSION.isRuntimePermissionSupported()}")
         Text(text = "isDynamicColorSupported: ${BuildExt.VERSION.isDynamicColorSupported()}")
         Text(text = "isNotificationChannelSupported: ${BuildExt.VERSION.isNotificationChannelSupported()}")
