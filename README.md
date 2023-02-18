@@ -73,7 +73,7 @@ dependencies {
 ## Usage
 ### Import
 ```kotlin
-import vtsen.hashnode.dev.buildutils.BuildExt
+import com.github.vinchamp77.buildutils.BuildExt
 ```
 
 ### Examples
