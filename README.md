@@ -73,13 +73,13 @@ dependencies {
 ## Usage
 ### Import
 ```kotlin
-import vtsen.hashnode.dev.buildutils.BuildExt
+import com.github.vinchamp77.buildutils.BuildExt
 ```
 
 ### Examples
 | APIs | App Examples |
 | --- | --- |
-| All APis demo | [MainScreen.kt](https://github.com/vinchamp77/buildutils/blob/master/example/src/main/java/vtsen/hashnode/dev/buildutils/example/ui/screens/MainScreen.kt) (buildutils demo app) |
-| `BuildExt.VERSION.isDynamicColorSupported()`| [Theme.kt](https://github.com/vinchamp77/Demo_CleanEmptyCompose/blob/master/app/src/main/java/vtsen/hashnode/dev/newemptycomposeapp/ui/theme/Theme.kt) (clean template app) | 
-| `BuildExt.VERSION.isRuntimePermissionSupported()` | [MainScreen.kt](https://github.com/vinchamp77/AndroidNews/blob/master/app/src/main/java/vtsen/hashnode/dev/androidnews/ui/main/MainScreen.kt) (Android News app)|
-| `BuildExt.VERSION.isNotificationChannelSupported()`</br>`BuildExt.VERSION.isFlagImmutableSupported()` | [SyncWorker.kt](https://github.com/vinchamp77/AndroidNews/blob/master/app/src/main/java/vtsen/hashnode/dev/androidnews/app/workers/SyncWorker.kt) (Android News app) |
+| All APis demo | [MainScreen.kt](https://github.com/vinchamp77/buildutils/blob/master/example/src/main/java/vtsen/hashnode/dev/buildutils/example/ui/screens/MainScreen.kt) - Show all API usages|
+| `BuildExt.VERSION.isDynamicColorSupported()`| [Theme.kt](https://github.com/vinchamp77/Demo_CleanEmptyCompose/blob/master/app/src/main/java/vtsen/hashnode/dev/newemptycomposeapp/ui/theme/Theme.kt) - Use dynamic color based on app's theme | 
+| `BuildExt.VERSION.isRuntimePermissionSupported()` | [MainScreen.kt](https://github.com/vinchamp77/AndroidNews/blob/master/app/src/main/java/vtsen/hashnode/dev/androidnews/ui/main/MainScreen.kt) - Show runtime permission dialog |
+| `BuildExt.VERSION.isNotificationChannelSupported()`</br>`BuildExt.VERSION.isFlagImmutableSupported()` | [SyncWorker.kt](https://github.com/vinchamp77/AndroidNews/blob/master/app/src/main/java/vtsen/hashnode/dev/androidnews/app/workers/SyncWorker.kt)<br/>- Create pending intent flag</br>- Create notification channel |
