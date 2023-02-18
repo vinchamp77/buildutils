@@ -1,4 +1,4 @@
-package vtsen.hashnode.dev.buildutils
+package com.github.vinchamp77.buildutils
 
 import android.os.Build
 import androidx.annotation.ChecksSdkIntAtLeast

@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "vtsen.hashnode.dev.buildutils"
+    namespace = "com.github.vinchamp77.buildutils"
     compileSdk = 33
 
     defaultConfig {
@@ -49,7 +49,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.vinchamp77"
             artifactId = "buildutils"
-            version = "0.0.5"
+            version = "0.0.6"
 
             afterEvaluate {
                 from(components["release"])
