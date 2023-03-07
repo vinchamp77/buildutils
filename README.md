@@ -56,7 +56,7 @@ dependencyResolutionManagement {
 
 ```gradle
 dependencies {
-    implementation "com.github.vinchamp77:buildutils:0.0.5"
+    implementation "com.github.vinchamp77:buildutils:0.0.6"
 }
 ```
 </details>
@@ -65,7 +65,7 @@ dependencies {
 
 ```gradle
 dependencies {
-    implementation("com.github.vinchamp77:buildutils:0.0.5")
+    implementation("com.github.vinchamp77:buildutils:0.0.6")
 }
 ```
 </details>
