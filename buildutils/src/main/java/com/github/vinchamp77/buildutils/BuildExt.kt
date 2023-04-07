@@ -9,7 +9,7 @@ class BuildExt {
     class VERSION {
         companion object {
 
-            /* API 31 33 - Android 13 (Tiramisu) */
+            /* API 33 - Android 13 (Tiramisu) */
             @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.TIRAMISU)
             fun isRuntimePermissionSupported(): Boolean
                 = Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU
