@@ -11,7 +11,7 @@ class BuildExt {
 
             /* API 33 - Android 13 (Tiramisu) */
             @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.TIRAMISU)
-            fun isRuntimePermissionSupported(): Boolean
+            fun isNotificationRuntimePermissionNeeded(): Boolean
                 = Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU
 
             /* API 31 - Android 12 (Snow Cone) */

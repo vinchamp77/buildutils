@@ -12,7 +12,7 @@ import vtsen.hashnode.dev.buildutils.example.ui.theme.BuildUtilsExampleAppTheme
 fun MainScreen() {
     Column {
         Text(text = "App API Level (SDK Version): ${Build.VERSION.SDK_INT}")
-        Text(text = "isRuntimePermissionSupported: ${BuildExt.VERSION.isRuntimePermissionSupported()}")
+        Text(text = "isNotificationRuntimePermissionNeeded: ${BuildExt.VERSION.isNotificationRuntimePermissionNeeded()}")
         Text(text = "isDynamicColorSupported: ${BuildExt.VERSION.isDynamicColorSupported()}")
         Text(text = "isNotificationChannelSupported: ${BuildExt.VERSION.isNotificationChannelSupported()}")
         Text(text = "isFlagImmutableSupported: ${BuildExt.VERSION.isFlagImmutableSupported()}")
