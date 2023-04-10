@@ -81,5 +81,5 @@ import com.github.vinchamp77.buildutils.BuildExt
 | --- | --- |
 | All APis demo | [MainScreen.kt](https://github.com/vinchamp77/buildutils/blob/master/example/src/main/java/vtsen/hashnode/dev/buildutils/example/ui/screens/MainScreen.kt) - Show all API usages|
 | `BuildExt.VERSION.isDynamicColorSupported()`| [Theme.kt](https://github.com/vinchamp77/Demo_CleanEmptyCompose/blob/master/app/src/main/java/vtsen/hashnode/dev/newemptycomposeapp/ui/theme/Theme.kt) - Use dynamic color based on app's theme | 
-| `BuildExt.VERSION.isRuntimePermissionSupported()` | [MainScreen.kt](https://github.com/vinchamp77/AndroidNews/blob/master/app/src/main/java/vtsen/hashnode/dev/androidnews/ui/main/MainScreen.kt) - Show runtime permission dialog |
+| `BuildExt.VERSION.isNotificationRuntimePermissionNeeded()` | [MainScreen.kt](https://github.com/vinchamp77/AndroidNews/blob/master/app/src/main/java/vtsen/hashnode/dev/androidnews/ui/main/MainScreen.kt) - Show notification runtime permission dialog |
 | `BuildExt.VERSION.isNotificationChannelSupported()`</br>`BuildExt.VERSION.isFlagImmutableSupported()` | [SyncWorker.kt](https://github.com/vinchamp77/AndroidNews/blob/master/app/src/main/java/vtsen/hashnode/dev/androidnews/app/workers/SyncWorker.kt)<br/>- Create pending intent flag</br>- Create notification channel |
