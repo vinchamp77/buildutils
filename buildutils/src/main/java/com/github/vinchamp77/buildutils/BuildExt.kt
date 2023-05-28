@@ -28,6 +28,9 @@ class BuildExt {
             @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.M)
             fun isFlagImmutableSupported(): Boolean
                 = Build.VERSION.SDK_INT >= Build.VERSION_CODES.M
+            @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.M)
+            fun isShowRequestPermissionRationaleSupported(): Boolean
+                = Build.VERSION.SDK_INT >= Build.VERSION_CODES.M
         }
     }
 }

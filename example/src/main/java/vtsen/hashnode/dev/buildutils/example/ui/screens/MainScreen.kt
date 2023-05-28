@@ -16,8 +16,8 @@ fun MainScreen() {
         Text(text = "isDynamicColorSupported: ${BuildExt.VERSION.isDynamicColorSupported()}")
         Text(text = "isNotificationChannelSupported: ${BuildExt.VERSION.isNotificationChannelSupported()}")
         Text(text = "isFlagImmutableSupported: ${BuildExt.VERSION.isFlagImmutableSupported()}")
+        Text(text = "isShowRequestPermissionRationaleSupported: ${BuildExt.VERSION.isShowRequestPermissionRationaleSupported()}")
     }
-
 }
 
 @Preview(showBackground = true)
