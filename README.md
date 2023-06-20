@@ -83,3 +83,21 @@ import com.github.vinchamp77.buildutils.BuildExt
 | `BuildExt.VERSION.isDynamicColorSupported()`| [Theme.kt](https://github.com/vinchamp77/Demo_CleanEmptyCompose/blob/master/app/src/main/java/vtsen/hashnode/dev/newemptycomposeapp/ui/theme/Theme.kt) - Use dynamic color based on app's theme | 
 | `BuildExt.VERSION.isNotificationRuntimePermissionNeeded()` | [MainScreen.kt](https://github.com/vinchamp77/AndroidNews/blob/master/app/src/main/java/vtsen/hashnode/dev/androidnews/ui/main/MainScreen.kt) - Show notification runtime permission dialog |
 | `BuildExt.VERSION.isNotificationChannelSupported()`</br>`BuildExt.VERSION.isFlagImmutableSupported()` | [SyncWorker.kt](https://github.com/vinchamp77/AndroidNews/blob/master/app/src/main/java/vtsen/hashnode/dev/androidnews/app/workers/SyncWorker.kt)<br/>- Create pending intent flag</br>- Create notification channel |
+
+## License
+```
+Copyright 2023 Vincent Tsen
+
+Licensed under the Apache License, Version 2.0 (the "License");
+
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
