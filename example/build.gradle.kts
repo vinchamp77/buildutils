@@ -1,5 +1,3 @@
-import com.android.build.api.dsl.Packaging
-
 plugins {
     id ("com.android.application")
     id ("org.jetbrains.kotlin.android")
@@ -63,10 +61,10 @@ dependencies {
 
     implementation("androidx.compose.material3:material3:1.2.0-alpha02")
 
-    implementation("com.google.accompanist:accompanist-systemuicontroller:0.28.0")
+    implementation("com.google.accompanist:accompanist-systemuicontroller:0.30.1")
 
     implementation("androidx.core:core-splashscreen:1.0.1")
 
     implementation(project(":buildutils"))
-    //implementation("com.github.vinchamp77:buildutils:0.0.11")
+    //implementation("com.github.vinchamp77:buildutils:0.0.12")
 }

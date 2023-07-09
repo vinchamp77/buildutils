@@ -13,6 +13,9 @@ class BuildExt {
             @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.TIRAMISU)
             fun isNotificationRuntimePermissionNeeded(): Boolean
                 = Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU
+            @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.TIRAMISU)
+            fun isPackageInfoFlagsSupported(): Boolean
+                = Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU
 
             /* API 31 - Android 12 (Snow Cone) */
             @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.S)
