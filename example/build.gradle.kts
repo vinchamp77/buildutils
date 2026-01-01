@@ -66,5 +66,5 @@ dependencies {
     implementation("androidx.core:core-splashscreen:1.2.0")
 
     implementation(project(":buildutils"))
-    //implementation("com.github.vinchamp77:buildutils:0.0.12")
+    //implementation("com.github.vinchamp77:buildutils:0.0.13")
 }
