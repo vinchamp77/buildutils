@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.github.vinchamp77.buildutils"
-    compileSdk = 33
+    compileSdk = 36
 
     defaultConfig {
         minSdk = 16
@@ -25,11 +25,13 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
-    kotlinOptions {
-        jvmTarget = "1.8"
+    kotlin {
+        compilerOptions {
+            jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
+        }
     }
     publishing {
         singleVariant("release") {
