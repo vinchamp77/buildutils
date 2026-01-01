@@ -86,7 +86,7 @@ import com.github.vinchamp77.buildutils.BuildExt
 
 ## License
 ```
-Copyright 2023 Vincent Tsen
+Copyright 2026 Vincent Tsen
 
 Licensed under the Apache License, Version 2.0 (the "License");
 
